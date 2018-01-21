@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>myproject</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/bar/bar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/dark/dark.css"/>
+		<link rel="stylesheet" type="text/css" href="css/default/default.css"/>
+		<link rel="stylesheet" type="text/css" href="css/light/light.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nivo-slider.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<div class="fix main">
+			<div class="fix header">
+				<img src="images/logo.jpg" alt=""/>
+			</div>
+			<div class="fix slider">
+				<div class="slider-wrapper theme-light">
+					<div class="nivoSlider" id="slider">
+						<img src="images/bpl3.jpg" />
+						<img src="images/p2.jpg" alt=""/>
+						<img src="images/p3.jpg" alt="" title="#htmlcaption"/>
+						<img src="images/p4.jpg" alt=""/>
+					</div>
+					<div class="nivo-html-caption" id="htmlcaption">
+						
+					</div>
+				</div>
+			</div>
+
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+
+		<div class="box">
+
+
+    <nav>
+
+		</br>
+		</br>
+		</br>
+	<ul>
+		
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Score</a></li>
+		<li><a href="#">Teams</a>
+			<ul>
+				<li><a href="#">DHAKA DYNAMYTES</a></li>
+				<li><a href="#">CHITTAGONG KINGS</a></li>
+				<li><a href="#">RANGPUR RIDERS</a></li>
+				<li><a href="#">BARISHAL BULLS</a></li>
+				<li><a href="#">SYLHET SUPER STARS</a></li>
+				<li><a href="#">COMILLA VICTORIANS</a></li>
+					
+				
+			</ul>
+		</li>
+		<li><a href="#">Fixure</a>
+		<li><a href="#">Points Table</a>
+		<li><a href="#">Achivement</a></li>
+		<li><a href="#">Tickets</a></li>
+	</ul>
+   </nav>
+	</div>	
+
+		
+				<div class="fix content">
+					<h2>About Us :</h2>
+					<p>This world cup T20 2016 which in going on india.This is the 6th edition of the shortest form of cricket. </p>
+					<p>Doctor and Nurse  can see the data store differently </p>
+					<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+				</div>
+			</div>
+			<div class="fix footer">
+				<p>For the event of ICC WORLD T20-2016</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider();
+		});
+		</script>
+	</body>
+</html>
